@@ -26,13 +26,22 @@
     }
     /*text under icon*/
     .icon .chabad_updates .widget_content .item .title, .icon .chabad_updates .widget_content .item .title a, .icon .widget_content .item .title, .icon .widget_content .item .title a{
-        color:#ffb400 !important;
+        color:#fff !important;
     }
 
     /*join our mailing list*/
     .hp-table .hp_subscribe{
         background: #FAB32C !important;
 background: linear-gradient(90deg, rgba(250, 179, 44, 1) 0%, rgba(107, 206, 216, 1) 100%) !important;
+    }
+    .hp-table .hp_subscribe h5{
+        color:#fff !important;
+    }
+    .hp_subscribe .wrapper #formContainer fieldset input{
+        border-radius:25px !important;
+    }
+    .hp_subscribe .wrapper #formContainer fieldset input[type=submit]{
+        border-color: #1b4466 !important;
     }
 
 
