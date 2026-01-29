@@ -1,35 +1,7 @@
 /*mini-site full width glitch*/
-.the-first-thing {
-	doesnt: render;
-}
-
-/*add in custom header code
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-*/
-
-/*making some elements a different font*/
-.widget-4 .bottom_padding, .cycle-caption :not(big, a){
-    font-family: 'Roboto Slab', sans-serif !important;
-    }
 
 
-    .co_body .content .form-all, .co_body .content p, .co_body h1, .co_body h1 a, .co_body h2, .co_body h2 a, .co_body h3, .co_body h3 a, .co_body h4, .co_body h4 a, .co_body h5, .co_body h5 a, .co_body h6, .co_body h6 a, .cps-container h1, .cps-container h2, .cps-container p, .form-all, a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, html body.cco_body, html body.cco_body p, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, pre, q, ruby, s, samp, section, small, strike, strong, sub, summary, sup, table, tfoot, time, tt, u, ul, var, video{
-font-family: 'Maven Pro', sans-serif !important;
-text-transform:none !important;
-    }
-
-    /*making buttons round edges*/
-    .hp_subscribe .wrapper #formContainer fieldset input[type=submit] ,.message .wrapper .widget_content .readMore, .hp-table .hp-row-first .promo_slider .slider .cycle-caption .readMore, .latest_photos .readMore span, body.cco_body #tabContentMain .co_menu_item.donate_link span.parent a, .hp-table>:not(:first-child) .promo_slider .cycle-caption .readMore {
-    border-radius: 25px !important;
-    }
-    /*programs images rounded*/
-    .sneak-peek-container .sneak-peek-item, .sneak_peek a.thumbnail img, .sneak-peek-container .sneak_peek .thumbnail{
-        border-radius:25px !important;
-    }
+    
 /*buttons outline color*/
     .hp-row .message .wrapper .widget_content .readMore, .hp-row [class^=widget-].latest_photos .readMore span, .hp-table .hp-row .promo_slider .slider .cycle-caption .readMore, body.cco_body #tabContentMain .co_menu_item.donate_link span.parent div a{
         border:2px solid #6bced8 !important;
@@ -46,10 +18,7 @@ text-transform:none !important;
     }
 
     /*icons change color through this website https://angel-rs.github.io/css-color-filter-generator/*/
-    .icon .chabad_updates .widget_content .item .icon img, .icon .widget_content .item .icon img{
-        height:70px !important;
-        width:auto !important;
-    }
+
 
     .icon .chabad_updates .widget_content .item .icon img, .icon .widget_content .item .icon img{
         filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(76deg) brightness(107%) contrast(101%) !important;
@@ -59,25 +28,12 @@ text-transform:none !important;
         color:#ffb400 !important;
     }
 
-    /*slides you have to copy selector of the slide every time otherwhise hero slides also get changed*/
-
-    
-    #BodyContainer > div > div.g960 > div > div.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.no_margin.g960.no_margin > div > div:nth-child(7) > div > div > div > div.slider > div.slides{
-        border-radius:25px !important;
-    }
-    .cycle-caption{
-        border-radius:0px 25px 25px 0px !important;
-    }
-
     /*join our mailing list*/
     .hp-table .hp_subscribe{
         background: #FAB32C !important;
 background: linear-gradient(90deg, rgba(250, 179, 44, 1) 0%, rgba(107, 206, 216, 1) 100%) !important;
     }
 
-    .hp-table .hp_subscribe .widget_header{
-        color:#fff !important;
-    }
 
     #footer{
         background: #1b4466 !important;
