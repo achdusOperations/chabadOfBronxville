@@ -30,17 +30,13 @@ text-transform:none !important;
     .sneak-peek-container .sneak-peek-item, .sneak_peek a.thumbnail img, .sneak-peek-container .sneak_peek .thumbnail{
         border-radius:25px !important;
     }
+/*buttons outline color*/
+    .hp-row .message .wrapper .widget_content .readMore, .hp-row [class^=widget-].latest_photos .readMore span, .hp-table .hp-row .promo_slider .slider .cycle-caption .readMore, body.cco_body #tabContentMain .co_menu_item.donate_link span.parent div a{
+        border:2px solid #6bced8 !important;
+    }
 
     /*i would like to*/
 
-    
-    /*button*/
-    .banner .widget_content.index_format .item .readMore, .banner .widget_content.index_format .item .readMore:hover{
-        background:#fff !important;
-        color: #6bced8 !important;
-        border-radius:25px !important;
-        border:2px solid #6bced8 !important;
-    }
     
     /*background*/
     #BodyContainer > div > div.g960 > div > div.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.g960.no_margin.g960.no_margin > div > div:nth-child(4){
