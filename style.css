@@ -26,7 +26,7 @@
 
     
     /*background*/
-    hp-row:has(.widget-4 icon custom v380 feed icon-updates){
+    .hp-row:has(.widget-4 icon custom v380 feed icon-updates){
         background: #6BCED8 !important;
         background: linear-gradient(90deg, rgba(107, 206, 216, 1) 0%, rgba(27, 68, 102, 1) 100%) !important;
 
