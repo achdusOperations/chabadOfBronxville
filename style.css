@@ -5,6 +5,7 @@
 /*buttons outline color*/
     .hp-row .message .wrapper .widget_content .readMore, .hp-row [class^=widget-].latest_photos .readMore span, .hp-table .hp-row .promo_slider .slider .cycle-caption .readMore, body.cco_body #tabContentMain .co_menu_item.donate_link span.parent div a{
         border:2px solid #1b4466 !important;
+        color:#6bced8 !important;
     }
 
     /*i would like to*/
