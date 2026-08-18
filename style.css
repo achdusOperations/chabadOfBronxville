@@ -66,24 +66,10 @@ background: linear-gradient(90deg, rgba(250, 179, 44, 1) 0%, rgba(107, 206, 216,
     }
 
     /*HH minisite*/
-/*html:has(meta[content*="High-Holidays"]) .chabad_header img,
-html:has(meta[content="Holiday-Service-Schedule "]) .chabad_header img,
-html:has(meta[content="High-Holiday-Reservations"]) .chabad_header img,
-html:has(meta[content="Shofar-in-The-Park"]) .chabad_header img,
-html:has(meta[content="4090306"]) .chabad_header img{
-    background-image: 
-   url("https://chabadjewishcenter.com/media/images/1382/unJy13824964.png");
-    background-size:100% 100%;
-    */
-    html:has(
-        meta[content*="Holiday"],
-        meta[content*="Shofar"],
-        meta[content="4090306"]
-      )
-     .chabad_header {
-        background-image: url("https://chabadjewishcenter.com/media/images/1382/unJy13824964.png") important;
-        background-size:100% 100%;
-}
+    html:has( meta[content*="Holiday"], meta[content*="Shofar"], meta[content="4090306"] ) .chabad_header {
+        background: url(https://chabadjewishcenter.com/media/images/1382/unJy13824964.png) !important;
+           background-size:100% 100% !important;
+    }
      
     /*navigation*/
     html:has(meta[content*="Holiday"], meta[content*="Shofar"], meta[content="4090306"])
