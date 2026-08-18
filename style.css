@@ -116,6 +116,23 @@ html:has(
 ) .custom_message :is(.title, .message) {
   color: #c64d18 !important;
 }
+/*buttons*/
+html:has(
+  meta[content*="Holiday"],
+  meta[content*="Shofar"],
+  meta[content="4090306"]
+) :is(.donate_link a, .read-more_link a) {
+  color: #c64d18 !important;
+  border: 3px solid #b89665 !important;
+}
+html:has(
+  meta[content*="Holiday"],
+  meta[content*="Shofar"],
+  meta[content="4090306"]
+) :is(.donate_link a:hover, .read-more_link a:hover) {
+  background: #c64d18 !important;
+  color: #c64d18 !important;
+}
 
 
 /*primary color: replace #ffb400; secondary color find replace #6bced8*/
