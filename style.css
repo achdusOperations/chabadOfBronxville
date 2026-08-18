@@ -146,6 +146,22 @@ html:has(
   background: #c64d18 !important;
   color: #c64d18 !important;
 }
+html:has(
+  meta[content*="Holiday"],
+  meta[content*="Shofar"],
+  meta[content="4090306"]
+) :is(
+  .appeal .title,
+  .co_calendar_head,
+  .co_photo_gallery_head,
+  .custom_message .title,
+  .feature_caption,
+  .feature_caption a,
+  .features_title,
+  .prepResource-title
+) {
+  color: #c64d18 !important;
+}
 
 
 /*primary color: replace #ffb400; secondary color find replace #6bced8*/
