@@ -75,15 +75,16 @@ html:has(meta[content="4090306"]) .chabad_header img{
    url("https://chabadjewishcenter.com/media/images/1382/unJy13824964.png");
     background-size:100% 100%;
     */
-    /*html:has(
+    html:has(
         meta[content*="Holiday"],
-        meta[content="Shofar"],
+        meta[content*="Shofar"],
         meta[content="4090306"]
-      ) .chabad_header img {
-        background-image: url("https://chabadjewishcenter.com/media/images/1382/unJy13824964.png") !important;
-        background-size: 100% 100% !important;
-      }
-      */
+      )
+     .chabad_header {
+        background-image: url("https://chabadjewishcenter.com/media/images/1382/unJy13824964.png") important;
+        background-size:100% 100%;
+}
+     
     /*navigation*/
     html:has(meta[content*="Holiday"], meta[content*="Shofar"], meta[content="4090306"])
   :is(
