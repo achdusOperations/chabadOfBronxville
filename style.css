@@ -108,6 +108,14 @@ html:has(
 ) #menu .item {
   color: transparent !important;
 }
+html:has(
+  meta[content*="Holiday"],
+  meta[content*="Shofar"],
+  meta[content="4090306"]
+) #menu a {
+  color: white !important;
+  border: 0 !important;
+}
 /*titles and text*/
 html:has(
   meta[content*="Holiday"],
