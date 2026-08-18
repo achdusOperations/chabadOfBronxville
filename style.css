@@ -21,7 +21,9 @@
         border:2px solid #1b4466 !important;
         color:#6bced8 !important;
     }
-
+    .hp-row .message .wrapper .widget_content .readMore:hover{
+        background:#FAB32C !important;
+    }
     /*i would like to*/
 
     
