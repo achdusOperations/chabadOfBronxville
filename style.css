@@ -158,7 +158,10 @@ html:has(
   .feature_caption,
   .feature_caption a,
   .features_title,
-  .prepResource-title
+  .prepResource-title,
+  .article-header__title,
+  .content_title_container .content_title,
+  .content_title_container h1
 ) {
   color: #c64d18 !important;
 }
