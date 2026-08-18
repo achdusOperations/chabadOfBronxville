@@ -67,7 +67,7 @@ background: linear-gradient(90deg, rgba(250, 179, 44, 1) 0%, rgba(107, 206, 216,
 
     
 /*HH minisite*/
-html:has(meta[content="High-Holidays"]) .chabad_header img,
+/*html:has(meta[content*="High-Holidays"]) .chabad_header img,
 html:has(meta[content="Holiday-Service-Schedule "]) .chabad_header img,
 html:has(meta[content="High-Holiday-Reservations"]) .chabad_header img,
 html:has(meta[content="Shofar-in-The-Park"]) .chabad_header img,
@@ -75,7 +75,16 @@ html:has(meta[content="4090306"]) .chabad_header img{
     background-image: 
    url("https://chabadjewishcenter.com/media/images/1382/unJy13824964.png");
     background-size:100% 100%;
+    */
+    html:has(meta[content*="Holiday"]) .chabad_header img,
+    html:has(meta[content="Shofar-in-The-Park"]) .chabad_header img,
+    html:has(meta[content="4090306"]) .chabad_header img{
+        background-image: 
+       url("https://chabadjewishcenter.com/media/images/1382/unJy13824964.png");
+        background-size:100% 100%;
     }
-
     /*html:has(meta[content="Rosh-Hashanah-2026"]) 
 html:has(meta[content*="20 Years Strong"])*/
+html:has(meta[content="High-Holidays"]) .cco_templateless_template a,html:has(meta[content="High-Holidays"]) html:has(meta[content="High-Holidays"]) #chabad_head .chabad_navigator_bar, html:has(meta[content="High-Holidays"]) #menu .item, #navigation, html:has(meta[content="High-Holidays"]) #menu a, html:has(meta[content="Holiday-Service-Schedule"]) .cco_templateless_template a,html:has(meta[content="Holiday-Service-Schedule"]) html:has(meta[content="High-Holidays"]) #chabad_head .chabad_navigator_bar, html:has(meta[content="High-Holidays"]) #menu .item, #navigation, html:has(meta[content="High-Holidays"]) #menu a{
+    background:#c64d18 !important
+}
