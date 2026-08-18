@@ -112,9 +112,12 @@ html:has(
   meta[content*="Holiday"],
   meta[content*="Shofar"],
   meta[content="4090306"]
-) #menu a {
+) :is(
+  #menu a,
+  #navigation li.parent a.parent:hover,
+  #navigation li.parent a.parent:hover + .sub_menu_toggle
+) {
   color: white !important;
-  border: 0 !important;
 }
 /*titles and text*/
 html:has(
