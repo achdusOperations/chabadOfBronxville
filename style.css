@@ -82,7 +82,7 @@ html:has(meta[content="4090306"]) .chabad_header img{
     }
     /*html:has(meta[content="Rosh-Hashanah-2026"]) 
 html:has(meta[content*="20 Years Strong"])*/
-html:has(meta[content="High-Holidays"]) .cco_templateless_template a,html:has(meta[content="High-Holidays"]) html:has(meta[content="High-Holidays"]) #chabad_head .chabad_navigator_bar, html:has(meta[content="High-Holidays"]) #menu .item, #navigation, html:has(meta[content="High-Holidays"]) #menu a, html:has(meta[content="Holiday-Service-Schedule"]) .cco_templateless_template a,html:has(meta[content="Holiday-Service-Schedule"]) html:has(meta[content="High-Holidays"]) #chabad_head .chabad_navigator_bar, html:has(meta[content="High-Holidays"]) #menu .item, #navigation, html:has(meta[content="High-Holidays"]) #menu a{
+html:has(meta[content*="Holiday"]) .cco_templateless_template a,html:has(meta[content*="Holiday"]) html:has(meta[content*="Holiday"]) #chabad_head .chabad_navigator_bar, html:has(meta[content*="Holiday"]) #menu .item,html:has(meta[content*="Holiday"]) #navigation, html:has(meta[content*="Holiday"]) #menu a, html:has(meta[content="Shofar-in-The-Park"]) .cco_templateless_template a,html:has(meta[content="Shofar-in-The-Park"]) html:has(meta[content="Shofar-in-The-Park"]) #chabad_head .chabad_navigator_bar, html:has(meta[content="Shofar-in-The-Park"]) #menu .item, html:has(meta[content="Shofar-in-The-Park"]) #navigation, html:has(meta[content="Shofar-in-The-Park"]) #menu a{
     background:#c64d18 !important
 }
 
