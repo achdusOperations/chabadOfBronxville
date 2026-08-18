@@ -173,6 +173,14 @@ html:has(
   background: #c64d18 !important;
   color: #fff !important;
 }
+html:has(
+  meta[content*="Holiday"],
+  meta[content*="Shofar"],
+  meta[content="4090306"]
+)
+.selected a {
+    text-decoration: underline !important;
+}
 
 
 /*primary color: replace #ffb400; secondary color find replace #6bced8*/
