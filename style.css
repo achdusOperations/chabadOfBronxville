@@ -21,7 +21,7 @@
         border:2px solid #1b4466 !important;
         color:#6bced8 !important;
     }
-    .hp-row .message .wrapper .widget_content .readMore:hover{
+    .hp-row .message .wrapper .widget_content .readMore:hover, body.cco_body #tabContentMain .co_menu_item.donate_link span.parent div a:hover{
         background:#FAB32C !important;
     }
     /*i would like to*/
