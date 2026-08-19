@@ -66,11 +66,17 @@ background: linear-gradient(90deg, rgba(250, 179, 44, 1) 0%, rgba(107, 206, 216,
     }
 
     /*HH minisite*/
-    html:has( meta[content*="Holiday"], meta[content*="Shofar"], meta[content="4090306"] ) .chabad_header {
+    /*html:has( meta[content*="Holiday"], meta[content*="Shofar"], meta[content="4090306"] ) .chabad_header {
         background: url(https://chabadjewishcenter.com/media/images/1382/unJy13824964.png) center center / cover no-repeat !important;
     aspect-ratio: 1366 / 450;
     width: 100%;
     height: auto;
+    }*/
+    html:has( meta[content*="Holiday"], meta[content*="Shofar"], meta[content="4090306"] ) .chabad_header {
+      background: url(https://chabadjewishcenter.com/media/images/1382/Ifmk13826259.png) center center / cover no-repeat !important;
+  aspect-ratio: 1366 / 450;
+  width: 100%;
+  height: auto;
     }
      
     /*navigation*/
