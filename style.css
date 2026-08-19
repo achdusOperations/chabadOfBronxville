@@ -89,14 +89,14 @@ background: linear-gradient(90deg, rgba(250, 179, 44, 1) 0%, rgba(107, 206, 216,
     #menu a,
     .footer
   ) {
-    background:#c64d18 !important;
+    background:#72102F !important;
 }
 html:has(
   meta[content*="Holiday"],
   meta[content*="Shofar"],
   meta[content="4090306"]
 ) #chabad_head .chabad_navigator_bar li a {
-  border-right: 2px solid #c64d18 !important;
+  border-right: 2px solid #72102F!important;
 }
 
 html:has(
@@ -123,7 +123,7 @@ html:has(
   meta[content*="Shofar"],
   meta[content="4090306"]
 ) .custom_message :is(.title, .message) {
-  color: #c64d18 !important;
+  color: #72102F !important;
 }
 /*buttons*/
 html:has(
@@ -131,7 +131,7 @@ html:has(
   meta[content*="Shofar"],
   meta[content="4090306"]
 ) :is(.donate_link a, .read-more_link a) {
-  color: #c64d18 !important;
+  color: #72102F !important;
   border: 3px solid #b89665 !important;
 }
 html:has(
@@ -139,8 +139,8 @@ html:has(
   meta[content*="Shofar"],
   meta[content="4090306"]
 ) :is(.donate_link a:hover, .read-more_link a:hover) {
-  background: #c64d18 !important;
-  color: #c64d18 !important;
+  background: #72102F !important;
+  color: #fff !important;
 }
 html:has(
   meta[content*="Holiday"],
@@ -159,14 +159,14 @@ html:has(
   .content_title_container .content_title,
   .content_title_container h1
 ) {
-  color: #c64d18 !important;
+  color: #72102F !important;
 }
 html:has(
   meta[content*="Holiday"],
   meta[content*="Shofar"],
   meta[content="4090306"]
 ) .sPromo-wrap .caption {
-  background: #c64d18 !important;
+  background: #72102F !important;
   color: #fff !important;
 }
 html:has(
