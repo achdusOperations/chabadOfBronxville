@@ -78,6 +78,13 @@ background: linear-gradient(90deg, rgba(250, 179, 44, 1) 0%, rgba(107, 206, 216,
   width: 100%;
   height: auto;
     }
+    /*remove date*/
+    html:has(meta[content*="Holiday"], meta[content*="Shofar"], meta[content="4090306"])
+  :is(
+    #chabad_head > div.chabad_header > div.holidayDates > div > div > div.widget_content
+  ){
+    display:none !important;
+  }
      
     /*navigation*/
     html:has(meta[content*="Holiday"], meta[content*="Shofar"], meta[content="4090306"])
