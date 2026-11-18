@@ -738,38 +738,7 @@ function gelt(count){
 })();
 })();
 </script>
-  <!-- ===========added in order to make height responsive ========= -->
 
-
-<script>
-  (function () {
-    function reportHeight() {
-      var height = Math.ceil(
-        document.documentElement.scrollHeight
-      );
-  
-      window.parent.postMessage({
-        type: "chanukah-resize",
-        height: height
-      }, "https://www.chabadjewishcenter.com");
-    }
-  
-    window.addEventListener("load", reportHeight);
-    window.addEventListener("resize", reportHeight);
-  
-    if (window.ResizeObserver) {
-      new ResizeObserver(reportHeight).observe(
-        document.getElementById("luec") || document.body
-      );
-    }
-  
-    if (document.fonts) {
-      document.fonts.ready.then(reportHeight);
-    }
-  
-    reportHeight();
-  })();
-  </script>
   
 </body>
 </html>
